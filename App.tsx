@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import AppNavigator from './navigation/AppNavigator';
-import { initDatabase } from './services/Database';
+import AppNavigator from './src/navigation/AppNavigator';
+import { initDatabase } from './src/services/Database';
 import { Text, View } from 'react-native';
 
 const App = () => {

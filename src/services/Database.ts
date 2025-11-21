@@ -50,12 +50,14 @@ export const initDatabase = async () => {
     );
   `);
 
-    // Seed breeds if empty
+    // Seed breeds if count is less than seed length (or 0)
     const [results] = await database.executeSql('SELECT count(*) as count FROM breeds');
-    if (results.rows.item(0).count === 0) {
-        console.log('Seeding breeds...');
+    const currentCount = results.rows.item(0).count;
+
+    if (currentCount < breedsSeed.length) {
+        console.log('Seeding/Updating breeds...');
         const insertQuery = `
-      INSERT INTO breeds (id, name, alt_names, origin, size, coat_length, coat_type, colors, ears, tail, temperament, description)
+      INSERT OR REPLACE INTO breeds (id, name, alt_names, origin, size, coat_length, coat_type, colors, ears, tail, temperament, description)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `;
 

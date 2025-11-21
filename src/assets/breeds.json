@@ -2,58 +2,98 @@
   {
     "id": "labrador_retriever",
     "name": "Labrador Retriever",
-    "alt_names": ["Lab"],
+    "alt_names": [
+      "Lab"
+    ],
     "origin": "Canada/UK",
     "size": "large",
     "coat_length": "short",
     "coat_type": "double",
-    "colors": ["black", "yellow", "chocolate"],
+    "colors": [
+      "black",
+      "yellow",
+      "chocolate"
+    ],
     "ears": "droopy",
     "tail": "straight",
-    "temperament": ["friendly", "active", "outgoing"],
-    "description": "The Labrador Retriever is a British breed of retriever gun dog. It was developed in the United Kingdom from fishing dogs imported from the colony of Newfoundland. It is one of the most popular dog breeds in the Western world."
+    "temperament": [
+      "friendly",
+      "active",
+      "outgoing"
+    ],
+    "description": "The Labrador Retriever is a British breed of retriever gun dog. It was developed in the United Kingdom from fishing dogs imported from the colony of Newfoundland."
   },
   {
     "id": "german_shepherd",
     "name": "German Shepherd",
-    "alt_names": ["Alsatian", "GSD"],
+    "alt_names": [
+      "Alsatian",
+      "GSD"
+    ],
     "origin": "Germany",
     "size": "large",
     "coat_length": "medium",
     "coat_type": "double",
-    "colors": ["black", "tan", "sable"],
+    "colors": [
+      "black",
+      "tan",
+      "sable"
+    ],
     "ears": "pricked",
     "tail": "plume",
-    "temperament": ["confident", "courageous", "smart"],
-    "description": "The German Shepherd is a breed of medium to large-sized working dog that originated in Germany. They are known for their intelligence, loyalty, and versatility."
+    "temperament": [
+      "confident",
+      "courageous",
+      "smart"
+    ],
+    "description": "The German Shepherd is a breed of medium to large-sized working dog that originated in Germany."
   },
   {
     "id": "golden_retriever",
     "name": "Golden Retriever",
-    "alt_names": ["Golden"],
+    "alt_names": [
+      "Golden"
+    ],
     "origin": "Scotland",
     "size": "large",
     "coat_length": "long",
     "coat_type": "double",
-    "colors": ["golden", "cream"],
+    "colors": [
+      "golden",
+      "cream"
+    ],
     "ears": "droopy",
     "tail": "plume",
-    "temperament": ["intelligent", "friendly", "devoted"],
-    "description": "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl, such as ducks and upland game birds, during hunting and shooting parties."
+    "temperament": [
+      "intelligent",
+      "friendly",
+      "devoted"
+    ],
+    "description": "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl."
   },
   {
     "id": "french_bulldog",
     "name": "French Bulldog",
-    "alt_names": ["Frenchie"],
+    "alt_names": [
+      "Frenchie"
+    ],
     "origin": "France",
     "size": "small",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["brindle", "fawn", "white"],
+    "colors": [
+      "brindle",
+      "fawn",
+      "white"
+    ],
     "ears": "pricked",
     "tail": "docked",
-    "temperament": ["adaptable", "playful", "smart"],
-    "description": "The French Bulldog is a breed of domestic dog, bred to be companion dogs. The breed is the result of a cross between Toy Bulldogs imported from England and local ratters in Paris."
+    "temperament": [
+      "adaptable",
+      "playful",
+      "smart"
+    ],
+    "description": "The French Bulldog is a breed of domestic dog, bred to be companion dogs."
   },
   {
     "id": "beagle",
@@ -63,53 +103,91 @@
     "size": "small",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["tricolor", "lemon", "red", "white"],
+    "colors": [
+      "tricolor",
+      "lemon",
+      "red",
+      "white"
+    ],
     "ears": "droopy",
     "tail": "straight",
-    "temperament": ["friendly", "curious", "merry"],
-    "description": "The Beagle is a breed of small scent hound, similar in appearance to the much larger Foxhound. The beagle was developed primarily for hunting hare."
+    "temperament": [
+      "friendly",
+      "curious",
+      "merry"
+    ],
+    "description": "The Beagle is a breed of small scent hound, similar in appearance to the much larger Foxhound."
   },
   {
     "id": "poodle_standard",
     "name": "Poodle (Standard)",
-    "alt_names": ["Poodle"],
+    "alt_names": [
+      "Poodle"
+    ],
     "origin": "Germany/France",
     "size": "large",
     "coat_length": "long",
     "coat_type": "curly",
-    "colors": ["white", "black", "apricot", "grey"],
+    "colors": [
+      "white",
+      "black",
+      "apricot",
+      "grey"
+    ],
     "ears": "droopy",
     "tail": "docked",
-    "temperament": ["active", "proud", "very smart"],
-    "description": "The Poodle is a dog breed that comes in three varieties: Standard Poodle, Miniature Poodle, and Toy Poodle. The breed is second to the Border Collie in intelligence."
+    "temperament": [
+      "active",
+      "proud",
+      "very smart"
+    ],
+    "description": "The Poodle is a dog breed that comes in three varieties: Standard Poodle, Miniature Poodle, and Toy Poodle."
   },
   {
     "id": "rottweiler",
     "name": "Rottweiler",
-    "alt_names": ["Rottie"],
+    "alt_names": [
+      "Rottie"
+    ],
     "origin": "Germany",
     "size": "large",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["black", "tan"],
+    "colors": [
+      "black",
+      "tan"
+    ],
     "ears": "droopy",
     "tail": "docked",
-    "temperament": ["loyal", "loving", "confident"],
-    "description": "The Rottweiler is a breed of domestic dog, regarded as medium-to-large or large. The dogs were known in German as Rottweiler Metzgerhund, meaning Rottweil butchers' dogs."
+    "temperament": [
+      "loyal",
+      "loving",
+      "confident"
+    ],
+    "description": "The Rottweiler is a breed of domestic dog, regarded as medium-to-large or large."
   },
   {
     "id": "yorkshire_terrier",
     "name": "Yorkshire Terrier",
-    "alt_names": ["Yorkie"],
+    "alt_names": [
+      "Yorkie"
+    ],
     "origin": "UK",
     "size": "toy",
     "coat_length": "long",
     "coat_type": "silky",
-    "colors": ["blue", "tan"],
+    "colors": [
+      "blue",
+      "tan"
+    ],
     "ears": "pricked",
     "tail": "docked",
-    "temperament": ["sprightly", "tomboyish", "affectionate"],
-    "description": "The Yorkshire Terrier is one of the smallest dog breed of terrier type, and of any dog breed. The breed developed during the 19th century in Yorkshire, England."
+    "temperament": [
+      "sprightly",
+      "tomboyish",
+      "affectionate"
+    ],
+    "description": "The Yorkshire Terrier is one of the smallest dog breed of terrier type."
   },
   {
     "id": "boxer",
@@ -119,95 +197,170 @@
     "size": "large",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["fawn", "brindle"],
+    "colors": [
+      "fawn",
+      "brindle"
+    ],
     "ears": "droopy",
     "tail": "docked",
-    "temperament": ["bright", "fun-loving", "active"],
-    "description": "The Boxer is a medium to large, short-haired breed of dog, developed in Germany. The coat is smooth and tight-fitting; colors are fawn, brindled, or white, with or without white markings."
+    "temperament": [
+      "bright",
+      "fun-loving",
+      "active"
+    ],
+    "description": "The Boxer is a medium to large, short-haired breed of dog, developed in Germany."
   },
   {
     "id": "dachshund",
     "name": "Dachshund",
-    "alt_names": ["Wiener Dog", "Sausage Dog"],
+    "alt_names": [
+      "Wiener Dog",
+      "Sausage Dog"
+    ],
     "origin": "Germany",
     "size": "small",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["red", "black", "tan"],
+    "colors": [
+      "red",
+      "black",
+      "tan"
+    ],
     "ears": "droopy",
     "tail": "straight",
-    "temperament": ["friendly", "curious", "spunky"],
-    "description": "The dachshund is a short-legged, long-bodied, hound-type dog breed. They may be smooth-haired, wire-haired, or long-haired."
+    "temperament": [
+      "friendly",
+      "curious",
+      "spunky"
+    ],
+    "description": "The dachshund is a short-legged, long-bodied, hound-type dog breed."
   },
   {
     "id": "siberian_husky",
     "name": "Siberian Husky",
-    "alt_names": ["Husky"],
+    "alt_names": [
+      "Husky"
+    ],
     "origin": "Siberia",
     "size": "medium",
     "coat_length": "medium",
     "coat_type": "double",
-    "colors": ["black", "white", "grey", "red"],
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "red"
+    ],
     "ears": "pricked",
     "tail": "plume",
-    "temperament": ["loyal", "outgoing", "mischievous"],
-    "description": "The Siberian Husky is a medium-sized working sled dog breed. The breed belongs to the Spitz genetic family. It is recognizable by its thickly furred double coat, erect triangular ears, and distinctive markings."
+    "temperament": [
+      "loyal",
+      "outgoing",
+      "mischievous"
+    ],
+    "description": "The Siberian Husky is a medium-sized working sled dog breed."
   },
   {
     "id": "great_dane",
     "name": "Great Dane",
-    "alt_names": ["Deutsche Dogge"],
+    "alt_names": [
+      "Deutsche Dogge"
+    ],
     "origin": "Germany",
     "size": "giant",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["fawn", "brindle", "blue", "black", "harlequin"],
+    "colors": [
+      "fawn",
+      "brindle",
+      "blue",
+      "black",
+      "harlequin"
+    ],
     "ears": "droopy",
     "tail": "straight",
-    "temperament": ["friendly", "patient", "dependable"],
-    "description": "The Great Dane is a German breed of domestic dog known for its giant size. The German name of the breed is Deutsche Dogge, or German Mastiff."
+    "temperament": [
+      "friendly",
+      "patient",
+      "dependable"
+    ],
+    "description": "The Great Dane is a German breed of domestic dog known for its giant size."
   },
   {
     "id": "corgi_pembroke",
     "name": "Pembroke Welsh Corgi",
-    "alt_names": ["Corgi"],
+    "alt_names": [
+      "Corgi"
+    ],
     "origin": "Wales",
     "size": "small",
     "coat_length": "medium",
     "coat_type": "double",
-    "colors": ["red", "sable", "fawn", "black", "tan"],
+    "colors": [
+      "red",
+      "sable",
+      "fawn",
+      "black",
+      "tan"
+    ],
     "ears": "pricked",
     "tail": "docked",
-    "temperament": ["affectionate", "smart", "alert"],
-    "description": "The Pembroke Welsh Corgi is a cattle herding dog breed that originated in Pembrokeshire, Wales. It is one of two breeds known as a Welsh Corgi."
+    "temperament": [
+      "affectionate",
+      "smart",
+      "alert"
+    ],
+    "description": "The Pembroke Welsh Corgi is a cattle herding dog breed that originated in Pembrokeshire, Wales."
   },
   {
     "id": "doberman_pinscher",
     "name": "Doberman Pinscher",
-    "alt_names": ["Dobie"],
+    "alt_names": [
+      "Dobie"
+    ],
     "origin": "Germany",
     "size": "large",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["black", "rust", "red", "blue", "fawn"],
+    "colors": [
+      "black",
+      "rust",
+      "red",
+      "blue",
+      "fawn"
+    ],
     "ears": "pricked",
     "tail": "docked",
-    "temperament": ["loyal", "fearless", "alert"],
-    "description": "The Dobermann, or Doberman Pinscher in the United States and Canada, is a medium-large breed of domestic dog that was originally developed around 1890 by Karl Friedrich Louis Dobermann."
+    "temperament": [
+      "loyal",
+      "fearless",
+      "alert"
+    ],
+    "description": "The Dobermann, or Doberman Pinscher in the United States and Canada, is a medium-large breed of domestic dog."
   },
   {
     "id": "australian_shepherd",
     "name": "Australian Shepherd",
-    "alt_names": ["Aussie"],
+    "alt_names": [
+      "Aussie"
+    ],
     "origin": "USA",
     "size": "medium",
     "coat_length": "medium",
     "coat_type": "double",
-    "colors": ["merle", "black", "red"],
+    "colors": [
+      "merle",
+      "black",
+      "red"
+    ],
     "ears": "folded",
     "tail": "docked",
-    "temperament": ["smart", "work-oriented", "exuberant"],
-    "description": "The Australian Shepherd is a breed of herding dog from the United States. Developed in California in the 19th century, it is claimed that the breed descends from a variety of herding breeds including collies imported with sheep from Australia and New Zealand."
+    "temperament": [
+      "smart",
+      "work-oriented",
+      "exuberant"
+    ],
+    "description": "The Australian Shepherd is a breed of herding dog from the United States."
   },
   {
     "id": "shih_tzu",
@@ -217,39 +370,70 @@
     "size": "toy",
     "coat_length": "long",
     "coat_type": "double",
-    "colors": ["white", "gold", "black", "grey"],
+    "colors": [
+      "white",
+      "gold",
+      "black",
+      "grey"
+    ],
     "ears": "droopy",
     "tail": "curled",
-    "temperament": ["affectionate", "playful", "outgoing"],
-    "description": "The Shih Tzu is a toy dog breed, weighing from 4 to 7.25 kilograms (9–16 lb) when fully grown. The breed developed in Tibet."
+    "temperament": [
+      "affectionate",
+      "playful",
+      "outgoing"
+    ],
+    "description": "The Shih Tzu is a toy dog breed, weighing from 4 to 7.25 kilograms."
   },
   {
     "id": "boston_terrier",
     "name": "Boston Terrier",
-    "alt_names": ["American Gentleman"],
+    "alt_names": [
+      "American Gentleman"
+    ],
     "origin": "USA",
     "size": "small",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["black", "white", "brindle"],
+    "colors": [
+      "black",
+      "white",
+      "brindle"
+    ],
     "ears": "pricked",
     "tail": "docked",
-    "temperament": ["friendly", "bright", "amusing"],
-    "description": "The Boston Terrier is a breed of dog originating in the United States. This 'American Gentleman' was accepted in 1893 by the American Kennel Club as a non-sporting breed."
+    "temperament": [
+      "friendly",
+      "bright",
+      "amusing"
+    ],
+    "description": "The Boston Terrier is a breed of dog originating in the United States."
   },
   {
     "id": "pomeranian",
     "name": "Pomeranian",
-    "alt_names": ["Pom"],
+    "alt_names": [
+      "Pom"
+    ],
     "origin": "Germany/Poland",
     "size": "toy",
     "coat_length": "long",
     "coat_type": "double",
-    "colors": ["orange", "red", "white", "black", "blue"],
+    "colors": [
+      "orange",
+      "red",
+      "white",
+      "black",
+      "blue"
+    ],
     "ears": "pricked",
     "tail": "curled",
-    "temperament": ["inquisitive", "bold", "lively"],
-    "description": "The Pomeranian is a breed of dog of the Spitz type that is named for the Pomerania region in north-west Poland and north-east Germany in Central Europe."
+    "temperament": [
+      "inquisitive",
+      "bold",
+      "lively"
+    ],
+    "description": "The Pomeranian is a breed of dog of the Spitz type."
   },
   {
     "id": "havanese",
@@ -259,39 +443,66 @@
     "size": "toy",
     "coat_length": "long",
     "coat_type": "silky",
-    "colors": ["white", "cream", "black", "silver"],
+    "colors": [
+      "white",
+      "cream",
+      "black",
+      "silver"
+    ],
     "ears": "droopy",
     "tail": "curled",
-    "temperament": ["intelligent", "outgoing", "funny"],
-    "description": "The Havanese is the national dog of Cuba, developed from the now extinct Blanquito de la Habana. The Blanquito descended from the also now extinct Bichón Tenerife."
+    "temperament": [
+      "intelligent",
+      "outgoing",
+      "funny"
+    ],
+    "description": "The Havanese is the national dog of Cuba, developed from the now extinct Blanquito de la Habana."
   },
   {
     "id": "shetland_sheepdog",
     "name": "Shetland Sheepdog",
-    "alt_names": ["Sheltie"],
+    "alt_names": [
+      "Sheltie"
+    ],
     "origin": "Scotland",
     "size": "small",
     "coat_length": "long",
     "coat_type": "double",
-    "colors": ["sable", "black", "blue merle"],
+    "colors": [
+      "sable",
+      "black",
+      "blue merle"
+    ],
     "ears": "semi-pricked",
     "tail": "plume",
-    "temperament": ["playful", "energetic", "bright"],
-    "description": "The Shetland Sheepdog, often known as the Sheltie, is a breed of herding dog that originated in the Shetland Islands of Scotland."
+    "temperament": [
+      "playful",
+      "energetic",
+      "bright"
+    ],
+    "description": "The Shetland Sheepdog, often known as the Sheltie, is a breed of herding dog."
   },
   {
     "id": "bernese_mountain_dog",
     "name": "Bernese Mountain Dog",
-    "alt_names": ["Berner"],
+    "alt_names": [
+      "Berner"
+    ],
     "origin": "Switzerland",
     "size": "large",
     "coat_length": "long",
     "coat_type": "double",
-    "colors": ["tricolor"],
+    "colors": [
+      "tricolor"
+    ],
     "ears": "droopy",
     "tail": "plume",
-    "temperament": ["good-natured", "calm", "strong"],
-    "description": "The Bernese Mountain Dog is a large-sized breed of dog, one of the four breeds of Sennenhund-type dogs from the Swiss Alps."
+    "temperament": [
+      "good-natured",
+      "calm",
+      "strong"
+    ],
+    "description": "The Bernese Mountain Dog is a large-sized breed of dog, one of the four breeds of Sennenhund-type dogs."
   },
   {
     "id": "brittany",
@@ -301,53 +512,89 @@
     "size": "medium",
     "coat_length": "medium",
     "coat_type": "flat",
-    "colors": ["orange", "white", "liver"],
+    "colors": [
+      "orange",
+      "white",
+      "liver"
+    ],
     "ears": "droopy",
     "tail": "docked",
-    "temperament": ["bright", "fun-loving", "upbeat"],
-    "description": "The Brittany is a breed of gun dog bred primarily for bird hunting. Although it is often referred to as the Brittany Spaniel, they are not actually spaniels."
+    "temperament": [
+      "bright",
+      "fun-loving",
+      "upbeat"
+    ],
+    "description": "The Brittany is a breed of gun dog bred primarily for bird hunting."
   },
   {
     "id": "english_springer_spaniel",
     "name": "English Springer Spaniel",
-    "alt_names": ["Springer"],
+    "alt_names": [
+      "Springer"
+    ],
     "origin": "UK",
     "size": "medium",
     "coat_length": "medium",
     "coat_type": "flat",
-    "colors": ["black", "white", "liver"],
+    "colors": [
+      "black",
+      "white",
+      "liver"
+    ],
     "ears": "droopy",
     "tail": "docked",
-    "temperament": ["friendly", "playful", "obedient"],
-    "description": "The English Springer Spaniel is a breed of gun dog in the Spaniel family traditionally used for flushing and retrieving game."
+    "temperament": [
+      "friendly",
+      "playful",
+      "obedient"
+    ],
+    "description": "The English Springer Spaniel is a breed of gun dog in the Spaniel family."
   },
   {
     "id": "mastiff",
     "name": "Mastiff",
-    "alt_names": ["English Mastiff"],
+    "alt_names": [
+      "English Mastiff"
+    ],
     "origin": "UK",
     "size": "giant",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["apricot", "fawn", "brindle"],
+    "colors": [
+      "apricot",
+      "fawn",
+      "brindle"
+    ],
     "ears": "droopy",
     "tail": "straight",
-    "temperament": ["courageous", "dignified", "good-natured"],
-    "description": "The Mastiff is a breed of large dog. The breed is referred to simply as the Mastiff by national kennel clubs, including the United Kingdom's Kennel Club and the FCI."
+    "temperament": [
+      "courageous",
+      "dignified",
+      "good-natured"
+    ],
+    "description": "The Mastiff is a breed of large dog."
   },
   {
     "id": "vizsla",
     "name": "Vizsla",
-    "alt_names": ["Hungarian Vizsla"],
+    "alt_names": [
+      "Hungarian Vizsla"
+    ],
     "origin": "Hungary",
     "size": "medium",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["golden rust"],
+    "colors": [
+      "golden rust"
+    ],
     "ears": "droopy",
     "tail": "docked",
-    "temperament": ["affectionate", "gentle", "energetic"],
-    "description": "The Vizsla is a dog breed from Hungary and belongs to the Federation Cynologique Internationale (FCI) group 7 (Pointing Dogs)."
+    "temperament": [
+      "affectionate",
+      "gentle",
+      "energetic"
+    ],
+    "description": "The Vizsla is a dog breed from Hungary and belongs to the Federation Cynologique Internationale (FCI) group 7."
   },
   {
     "id": "pug",
@@ -357,11 +604,18 @@
     "size": "small",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["fawn", "black"],
+    "colors": [
+      "fawn",
+      "black"
+    ],
     "ears": "folded",
     "tail": "curled",
-    "temperament": ["charming", "mischievous", "loving"],
-    "description": "The Pug is a breed of dog with physically distinctive features of a wrinkly, short-muzzled face, and curled tail. The breed has a fine, glossy coat that comes in a variety of colors."
+    "temperament": [
+      "charming",
+      "mischievous",
+      "loving"
+    ],
+    "description": "The Pug is a breed of dog with physically distinctive features of a wrinkly, short-muzzled face, and curled tail."
   },
   {
     "id": "chihuahua",
@@ -371,10 +625,19 @@
     "size": "toy",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["fawn", "white", "black", "chocolate"],
+    "colors": [
+      "fawn",
+      "white",
+      "black",
+      "chocolate"
+    ],
     "ears": "pricked",
     "tail": "curled",
-    "temperament": ["charming", "graceful", "sassy"],
+    "temperament": [
+      "charming",
+      "graceful",
+      "sassy"
+    ],
     "description": "The Chihuahua is the smallest breed of dog and is named after the Mexican state of Chihuahua."
   },
   {
@@ -385,53 +648,91 @@
     "size": "toy",
     "coat_length": "long",
     "coat_type": "silky",
-    "colors": ["white"],
+    "colors": [
+      "white"
+    ],
     "ears": "droopy",
     "tail": "plume",
-    "temperament": ["gentle", "playful", "charming"],
-    "description": "The Maltese is a small breed of dog in the Toy Group. It descends from dogs originating in the Central Mediterranean Area."
+    "temperament": [
+      "gentle",
+      "playful",
+      "charming"
+    ],
+    "description": "The Maltese is a small breed of dog in the Toy Group."
   },
   {
     "id": "weimaraner",
     "name": "Weimaraner",
-    "alt_names": ["Grey Ghost"],
+    "alt_names": [
+      "Grey Ghost"
+    ],
     "origin": "Germany",
     "size": "large",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["grey", "silver"],
+    "colors": [
+      "grey",
+      "silver"
+    ],
     "ears": "droopy",
     "tail": "docked",
-    "temperament": ["friendly", "fearless", "obedient"],
-    "description": "The Weimaraner is a large dog that was originally bred for hunting in the early 19th century. Early Weimaraners were used by royalty for hunting large game such as boar, bear, and deer."
+    "temperament": [
+      "friendly",
+      "fearless",
+      "obedient"
+    ],
+    "description": "The Weimaraner is a large dog that was originally bred for hunting in the early 19th century."
   },
   {
     "id": "collie",
     "name": "Collie",
-    "alt_names": ["Rough Collie", "Lassie"],
+    "alt_names": [
+      "Rough Collie",
+      "Lassie"
+    ],
     "origin": "Scotland",
     "size": "large",
     "coat_length": "long",
     "coat_type": "double",
-    "colors": ["sable", "white", "tricolor", "blue merle"],
+    "colors": [
+      "sable",
+      "white",
+      "tricolor",
+      "blue merle"
+    ],
     "ears": "semi-pricked",
     "tail": "plume",
-    "temperament": ["devoted", "graceful", "proud"],
-    "description": "The Collie is a distinctive type of herding dog, including many related landraces and standardized breeds. The breed originated in Scotland and Northern England."
+    "temperament": [
+      "devoted",
+      "graceful",
+      "proud"
+    ],
+    "description": "The Collie is a distinctive type of herding dog, including many related landraces and standardized breeds."
   },
   {
     "id": "newfoundland",
     "name": "Newfoundland",
-    "alt_names": ["Newfie"],
+    "alt_names": [
+      "Newfie"
+    ],
     "origin": "Canada",
     "size": "giant",
     "coat_length": "long",
     "coat_type": "double",
-    "colors": ["black", "brown", "grey", "white"],
+    "colors": [
+      "black",
+      "brown",
+      "grey",
+      "white"
+    ],
     "ears": "droopy",
     "tail": "plume",
-    "temperament": ["sweet", "patient", "devoted"],
-    "description": "The Newfoundland is a large working dog. They can be either black, brown, grey, or white-and-black. However, in the Dominion of Newfoundland, before it became part of the confederation of Canada, only black and Landseer (white-and-black) dogs were considered to be proper members of the breed."
+    "temperament": [
+      "sweet",
+      "patient",
+      "devoted"
+    ],
+    "description": "The Newfoundland is a large working dog."
   },
   {
     "id": "basset_hound",
@@ -441,11 +742,19 @@
     "size": "medium",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["tricolor", "lemon", "white"],
+    "colors": [
+      "tricolor",
+      "lemon",
+      "white"
+    ],
     "ears": "droopy",
     "tail": "straight",
-    "temperament": ["charming", "patient", "low-key"],
-    "description": "The Basset Hound is a short-legged breed of dog in the scent hound family. The Basset is a scent hound that was originally bred for the purpose of hunting hare."
+    "temperament": [
+      "charming",
+      "patient",
+      "low-key"
+    ],
+    "description": "The Basset Hound is a short-legged breed of dog in the scent hound family."
   },
   {
     "id": "rhodesian_ridgeback",
@@ -455,39 +764,63 @@
     "size": "large",
     "coat_length": "short",
     "coat_type": "smooth",
-    "colors": ["wheaten"],
+    "colors": [
+      "wheaten"
+    ],
     "ears": "droopy",
     "tail": "straight",
-    "temperament": ["dignified", "even-tempered", "affectionate"],
-    "description": "The Rhodesian Ridgeback is a dog breed developed in Southern Africa. Its European forebears can be traced to the early pioneers of the Cape Colony of southern Africa, who crossed their dogs with the semi-domesticated, ridged hunting dogs of the Khoikhoi."
+    "temperament": [
+      "dignified",
+      "even-tempered",
+      "affectionate"
+    ],
+    "description": "The Rhodesian Ridgeback is a dog breed developed in Southern Africa."
   },
   {
     "id": "west_highland_white_terrier",
     "name": "West Highland White Terrier",
-    "alt_names": ["Westie"],
+    "alt_names": [
+      "Westie"
+    ],
     "origin": "Scotland",
     "size": "small",
     "coat_length": "medium",
     "coat_type": "double",
-    "colors": ["white"],
+    "colors": [
+      "white"
+    ],
     "ears": "pricked",
     "tail": "carrot",
-    "temperament": ["happy", "loyal", "entertaining"],
-    "description": "The West Highland White Terrier, commonly known as the Westie, is a breed of dog from Scotland with a distinctive white harsh coat with a somewhat soft white undercoat."
+    "temperament": [
+      "happy",
+      "loyal",
+      "entertaining"
+    ],
+    "description": "The West Highland White Terrier, commonly known as the Westie, is a breed of dog from Scotland."
   },
   {
     "id": "belgian_malinois",
     "name": "Belgian Malinois",
-    "alt_names": ["Mal"],
+    "alt_names": [
+      "Mal"
+    ],
     "origin": "Belgium",
     "size": "large",
     "coat_length": "short",
     "coat_type": "double",
-    "colors": ["fawn", "mahogany", "black mask"],
+    "colors": [
+      "fawn",
+      "mahogany",
+      "black mask"
+    ],
     "ears": "pricked",
     "tail": "straight",
-    "temperament": ["confident", "smart", "hardworking"],
-    "description": "The Belgian Malinois is a medium-to-large breed of dog that is sometimes classified as a variety of the Belgian Shepherd dog rather than as a separate breed. The name 'Malinois' is derived from Malines, the French name for the breed's city of origin, Mechelen."
+    "temperament": [
+      "confident",
+      "smart",
+      "hardworking"
+    ],
+    "description": "The Belgian Malinois is a medium-to-large breed of dog that is sometimes classified as a variety of the Belgian Shepherd dog."
   },
   {
     "id": "bichon_frise",
@@ -497,25 +830,43 @@
     "size": "small",
     "coat_length": "long",
     "coat_type": "curly",
-    "colors": ["white"],
+    "colors": [
+      "white"
+    ],
     "ears": "droopy",
     "tail": "plume",
-    "temperament": ["playful", "curious", "peppy"],
-    "description": "The Bichon Frise is a small breed of dog of the Bichon type. The Bichon Frise is a member of the Non-sporting Group of dog breeds in the United States, and a member of the Toy Dog Group in the United Kingdom."
+    "temperament": [
+      "playful",
+      "curious",
+      "peppy"
+    ],
+    "description": "The Bichon Frise is a small breed of dog of the Bichon type."
   },
   {
     "id": "shiba_inu",
     "name": "Shiba Inu",
-    "alt_names": ["Shiba"],
+    "alt_names": [
+      "Shiba"
+    ],
     "origin": "Japan",
     "size": "small",
     "coat_length": "medium",
     "coat_type": "double",
-    "colors": ["red", "black", "tan", "sesame", "cream"],
+    "colors": [
+      "red",
+      "black",
+      "tan",
+      "sesame",
+      "cream"
+    ],
     "ears": "pricked",
     "tail": "curled",
-    "temperament": ["alert", "active", "attentive"],
-    "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog native to Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    "temperament": [
+      "alert",
+      "active",
+      "attentive"
+    ],
+    "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog native to Japan."
   },
   {
     "id": "akita",
@@ -525,11 +876,19 @@
     "size": "large",
     "coat_length": "medium",
     "coat_type": "double",
-    "colors": ["white", "brindle", "red"],
+    "colors": [
+      "white",
+      "brindle",
+      "red"
+    ],
     "ears": "pricked",
     "tail": "curled",
-    "temperament": ["courageous", "dignified", "profoundly loyal"],
-    "description": "The Akita is a large breed of dog originating from the mountainous regions of northern Japan. There are two separate varieties of Akita: a Japanese strain, commonly called Akita Inu, and an American strain, known as the Akita or American Akita."
+    "temperament": [
+      "courageous",
+      "dignified",
+      "profoundly loyal"
+    ],
+    "description": "The Akita is a large breed of dog originating from the mountainous regions of northern Japan."
   },
   {
     "id": "st_bernard",
@@ -539,24 +898,852 @@
     "size": "giant",
     "coat_length": "medium",
     "coat_type": "double",
-    "colors": ["red", "white"],
+    "colors": [
+      "red",
+      "white"
+    ],
     "ears": "droopy",
     "tail": "plume",
-    "temperament": ["playful", "charming", "inquisitive"],
-    "description": "The St. Bernard or St Bernard is a breed of very large working dog from the western Alps in Italy and Switzerland. They were originally bred for rescue by the hospice of the Great St Bernard Pass on the Italian-Swiss border."
+    "temperament": [
+      "playful",
+      "charming",
+      "inquisitive"
+    ],
+    "description": "The St. Bernard or St Bernard is a breed of very large working dog from the western Alps."
   },
   {
     "id": "cavalier_king_charles_spaniel",
     "name": "Cavalier King Charles Spaniel",
-    "alt_names": ["Cav"],
+    "alt_names": [
+      "Cav"
+    ],
     "origin": "UK",
     "size": "small",
     "coat_length": "long",
     "coat_type": "silky",
-    "colors": ["blenheim", "tricolor", "ruby", "black and tan"],
+    "colors": [
+      "blenheim",
+      "tricolor",
+      "ruby",
+      "black and tan"
+    ],
     "ears": "droopy",
     "tail": "plume",
-    "temperament": ["affectionate", "gentle", "graceful"],
-    "description": "The Cavalier King Charles Spaniel is a small spaniel classed in the toy group of The Kennel Club and the American Kennel Club. It originated in the United Kingdom and is one of the more popular breeds in many countries."
+    "temperament": [
+      "affectionate",
+      "gentle",
+      "graceful"
+    ],
+    "description": "The Cavalier King Charles Spaniel is a small spaniel classed in the toy group."
+  },
+  {
+    "id": "bull_terrier",
+    "name": "Bull Terrier",
+    "alt_names": [
+      "Bully"
+    ],
+    "origin": "UK",
+    "size": "medium",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "white",
+      "brindle",
+      "black"
+    ],
+    "ears": "pricked",
+    "tail": "straight",
+    "temperament": [
+      "playful",
+      "charming",
+      "mischievous"
+    ],
+    "description": "The Bull Terrier is a breed of dog in the terrier family. There is also a miniature version of this breed."
+  },
+  {
+    "id": "chow_chow",
+    "name": "Chow Chow",
+    "alt_names": [
+      "Chow"
+    ],
+    "origin": "China",
+    "size": "medium",
+    "coat_length": "long",
+    "coat_type": "double",
+    "colors": [
+      "red",
+      "black",
+      "blue",
+      "cinnamon",
+      "cream"
+    ],
+    "ears": "pricked",
+    "tail": "curled",
+    "temperament": [
+      "dignified",
+      "bright",
+      "serious"
+    ],
+    "description": "The Chow Chow is a dog breed originally from northern China. The Chow Chow is a sturdily built dog, square in profile, with a broad skull and small, triangular, erect ears with rounded tips."
+  },
+  {
+    "id": "dalmatian",
+    "name": "Dalmatian",
+    "alt_names": [],
+    "origin": "Croatia",
+    "size": "large",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "white with black spots"
+    ],
+    "ears": "droopy",
+    "tail": "straight",
+    "temperament": [
+      "dignified",
+      "smart",
+      "outgoing"
+    ],
+    "description": "The Dalmatian is a breed of medium-sized dog, noted for its unique white coat marked with black or liver-colored spots."
+  },
+  {
+    "id": "greyhound",
+    "name": "Greyhound",
+    "alt_names": [],
+    "origin": "UK",
+    "size": "large",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "brindle",
+      "black",
+      "red",
+      "white"
+    ],
+    "ears": "folded",
+    "tail": "straight",
+    "temperament": [
+      "gentle",
+      "independent",
+      "noble"
+    ],
+    "description": "The Greyhound is a breed of dog, a sighthound which has been bred for coursing game and greyhound racing."
+  },
+  {
+    "id": "jack_russell_terrier",
+    "name": "Jack Russell Terrier",
+    "alt_names": [
+      "JRT"
+    ],
+    "origin": "UK",
+    "size": "small",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "white",
+      "black",
+      "tan"
+    ],
+    "ears": "folded",
+    "tail": "docked",
+    "temperament": [
+      "alert",
+      "lively",
+      "inquisitive"
+    ],
+    "description": "The Jack Russell Terrier is a small terrier that has its origins in fox hunting. It is principally white-bodied and smooth, rough or broken-coated."
+  },
+  {
+    "id": "lhasa_apso",
+    "name": "Lhasa Apso",
+    "alt_names": [],
+    "origin": "Tibet",
+    "size": "small",
+    "coat_length": "long",
+    "coat_type": "double",
+    "colors": [
+      "gold",
+      "cream",
+      "honey",
+      "dark grizzle"
+    ],
+    "ears": "droopy",
+    "tail": "curled",
+    "temperament": [
+      "confident",
+      "smart",
+      "comical"
+    ],
+    "description": "The Lhasa Apso is a non-sporting dog breed originating in Tibet. It was bred as an interior sentinel in the Buddhist monasteries."
+  },
+  {
+    "id": "papillon",
+    "name": "Papillon",
+    "alt_names": [
+      "Continental Toy Spaniel"
+    ],
+    "origin": "France",
+    "size": "toy",
+    "coat_length": "long",
+    "coat_type": "silky",
+    "colors": [
+      "white",
+      "black",
+      "lemon"
+    ],
+    "ears": "pricked",
+    "tail": "plume",
+    "temperament": [
+      "happy",
+      "alert",
+      "friendly"
+    ],
+    "description": "The Papillon, also called the Continental Toy Spaniel, is a breed of dog, of the spaniel type. One of the oldest of the toy spaniels, it derives its name from its characteristic butterfly-like look of the long and fringed hair on the ears."
+  },
+  {
+    "id": "samoyed",
+    "name": "Samoyed",
+    "alt_names": [
+      "Sammy"
+    ],
+    "origin": "Siberia",
+    "size": "medium",
+    "coat_length": "long",
+    "coat_type": "double",
+    "colors": [
+      "white"
+    ],
+    "ears": "pricked",
+    "tail": "plume",
+    "temperament": [
+      "friendly",
+      "gentle",
+      "adaptable"
+    ],
+    "description": "The Samoyed is a breed of large herding dog that descended from the Nenets herding laika, a spitz-type dog, with a thick, white, double-layer coat."
+  },
+  {
+    "id": "whippet",
+    "name": "Whippet",
+    "alt_names": [],
+    "origin": "UK",
+    "size": "medium",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "brindle",
+      "parti-color",
+      "solid"
+    ],
+    "ears": "folded",
+    "tail": "straight",
+    "temperament": [
+      "affectionate",
+      "playful",
+      "calm"
+    ],
+    "description": "The Whippet is a dog breed of medium size. They are a sighthound breed that originated in England, where they descended from Greyhounds."
+  },
+  {
+    "id": "alaskan_malamute",
+    "name": "Alaskan Malamute",
+    "alt_names": [
+      "Malamute"
+    ],
+    "origin": "USA",
+    "size": "large",
+    "coat_length": "medium",
+    "coat_type": "double",
+    "colors": [
+      "grey",
+      "black",
+      "sable",
+      "red"
+    ],
+    "ears": "pricked",
+    "tail": "plume",
+    "temperament": [
+      "affectionate",
+      "loyal",
+      "playful"
+    ],
+    "description": "The Alaskan Malamute is a large breed of domestic dog originally bred for their strength and endurance to haul heavy freight as a sled dog and hound."
+  },
+  {
+    "id": "border_collie",
+    "name": "Border Collie",
+    "alt_names": [],
+    "origin": "UK",
+    "size": "medium",
+    "coat_length": "medium",
+    "coat_type": "double",
+    "colors": [
+      "black",
+      "white",
+      "merle"
+    ],
+    "ears": "semi-pricked",
+    "tail": "plume",
+    "temperament": [
+      "smart",
+      "energetic",
+      "alert"
+    ],
+    "description": "The Border Collie is a working and herding dog breed. They come from the Anglo-Scottish border region and are used to herd livestock."
+  },
+  {
+    "id": "cocker_spaniel",
+    "name": "Cocker Spaniel",
+    "alt_names": [],
+    "origin": "USA/UK",
+    "size": "small",
+    "coat_length": "long",
+    "coat_type": "silky",
+    "colors": [
+      "black",
+      "buff",
+      "parti-color"
+    ],
+    "ears": "droopy",
+    "tail": "docked",
+    "temperament": [
+      "gentle",
+      "smart",
+      "happy"
+    ],
+    "description": "The Cocker Spaniel is a breed of gun dog. It is noteworthy for producing one of the most varied numbers of pups in a litter among all dog breeds."
+  },
+  {
+    "id": "great_pyrenees",
+    "name": "Great Pyrenees",
+    "alt_names": [
+      "Pyrenean Mountain Dog"
+    ],
+    "origin": "France/Spain",
+    "size": "giant",
+    "coat_length": "long",
+    "coat_type": "double",
+    "colors": [
+      "white"
+    ],
+    "ears": "droopy",
+    "tail": "plume",
+    "temperament": [
+      "smart",
+      "patient",
+      "calm"
+    ],
+    "description": "The Great Pyrenees is a large, thickly coated, and immense dog breed used as a livestock guardian dog."
+  },
+  {
+    "id": "irish_setter",
+    "name": "Irish Setter",
+    "alt_names": [
+      "Red Setter"
+    ],
+    "origin": "Ireland",
+    "size": "large",
+    "coat_length": "long",
+    "coat_type": "silky",
+    "colors": [
+      "mahogany",
+      "chestnut"
+    ],
+    "ears": "droopy",
+    "tail": "plume",
+    "temperament": [
+      "active",
+      "outgoing",
+      "sweet-natured"
+    ],
+    "description": "The Irish Setter is a setter, a breed of gundog, and family dog. The term Irish Setter is commonly used to encompass the show-bred dog recognized by the AKC as well as the field-bred Red Setter."
+  },
+  {
+    "id": "italian_greyhound",
+    "name": "Italian Greyhound",
+    "alt_names": [
+      "IG"
+    ],
+    "origin": "Italy",
+    "size": "toy",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "grey",
+      "fawn",
+      "red"
+    ],
+    "ears": "folded",
+    "tail": "straight",
+    "temperament": [
+      "alert",
+      "playful",
+      "sensitive"
+    ],
+    "description": "The Italian Greyhound is a small breed of dog of the sighthound type."
+  },
+  {
+    "id": "miniature_schnauzer",
+    "name": "Miniature Schnauzer",
+    "alt_names": [],
+    "origin": "Germany",
+    "size": "small",
+    "coat_length": "medium",
+    "coat_type": "wire",
+    "colors": [
+      "salt and pepper",
+      "black and silver",
+      "black"
+    ],
+    "ears": "folded",
+    "tail": "docked",
+    "temperament": [
+      "friendly",
+      "smart",
+      "obedient"
+    ],
+    "description": "The Miniature Schnauzer is a breed of small dog of the Schnauzer type that originated in Germany in the mid-to-late 19th century."
+  },
+  {
+    "id": "old_english_sheepdog",
+    "name": "Old English Sheepdog",
+    "alt_names": [
+      "Bobtail"
+    ],
+    "origin": "UK",
+    "size": "large",
+    "coat_length": "long",
+    "coat_type": "double",
+    "colors": [
+      "grey",
+      "grizzle",
+      "blue"
+    ],
+    "ears": "droopy",
+    "tail": "docked",
+    "temperament": [
+      "adaptable",
+      "gentle",
+      "smart"
+    ],
+    "description": "The Old English Sheepdog is a large breed of dog that emerged in England from early types of herding dog."
+  },
+  {
+    "id": "pointer",
+    "name": "Pointer",
+    "alt_names": [
+      "English Pointer"
+    ],
+    "origin": "UK",
+    "size": "large",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "liver",
+      "lemon",
+      "black",
+      "orange"
+    ],
+    "ears": "droopy",
+    "tail": "straight",
+    "temperament": [
+      "loyal",
+      "hardworking",
+      "even-tempered"
+    ],
+    "description": "The Pointer, often called the English Pointer, is a medium to large-sized breed of dog developed in England as a gun dog."
+  },
+  {
+    "id": "shiba_inu",
+    "name": "Shiba Inu",
+    "alt_names": [
+      "Shiba"
+    ],
+    "origin": "Japan",
+    "size": "small",
+    "coat_length": "medium",
+    "coat_type": "double",
+    "colors": [
+      "red",
+      "black",
+      "tan",
+      "sesame",
+      "cream"
+    ],
+    "ears": "pricked",
+    "tail": "curled",
+    "temperament": [
+      "alert",
+      "active",
+      "attentive"
+    ],
+    "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog native to Japan."
+  },
+  {
+    "id": "staffordshire_bull_terrier",
+    "name": "Staffordshire Bull Terrier",
+    "alt_names": [
+      "Staffy"
+    ],
+    "origin": "UK",
+    "size": "medium",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "red",
+      "fawn",
+      "white",
+      "black",
+      "blue"
+    ],
+    "ears": "folded",
+    "tail": "straight",
+    "temperament": [
+      "clever",
+      "brave",
+      "tenacious"
+    ],
+    "description": "The Staffordshire Bull Terrier is a medium-sized, short-coated breed of dog. It is of English lineage and may be considered to be within the pit bull type."
+  },
+  {
+    "id": "airedale_terrier",
+    "name": "Airedale Terrier",
+    "alt_names": [
+      "King of Terriers"
+    ],
+    "origin": "UK",
+    "size": "large",
+    "coat_length": "medium",
+    "coat_type": "wire",
+    "colors": [
+      "black and tan"
+    ],
+    "ears": "folded",
+    "tail": "docked",
+    "temperament": [
+      "friendly",
+      "clever",
+      "courageous"
+    ],
+    "description": "The Airedale Terrier is a dog breed of the terrier type that originated in the valley of the River Aire, in the West Riding of Yorkshire, England."
+  },
+  {
+    "id": "basenji",
+    "name": "Basenji",
+    "alt_names": [
+      "Barkless Dog"
+    ],
+    "origin": "Congo",
+    "size": "small",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "red",
+      "black",
+      "tricolor",
+      "brindle"
+    ],
+    "ears": "pricked",
+    "tail": "curled",
+    "temperament": [
+      "independent",
+      "smart",
+      "poised"
+    ],
+    "description": "The Basenji is a breed of hunting dog. It was bred from stock that originated in central Africa. Most of the major kennel clubs in the English-speaking world place the breed in the Hound Group."
+  },
+  {
+    "id": "bloodhound",
+    "name": "Bloodhound",
+    "alt_names": [],
+    "origin": "Belgium/France",
+    "size": "large",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "black and tan",
+      "liver and tan",
+      "red"
+    ],
+    "ears": "droopy",
+    "tail": "straight",
+    "temperament": [
+      "affectionate",
+      "stubborn",
+      "gentle"
+    ],
+    "description": "The Bloodhound is a large scent hound, originally bred for hunting deer, wild boar and, since the Middle Ages, for tracking people."
+  },
+  {
+    "id": "bullmastiff",
+    "name": "Bullmastiff",
+    "alt_names": [],
+    "origin": "UK",
+    "size": "large",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "fawn",
+      "red",
+      "brindle"
+    ],
+    "ears": "droopy",
+    "tail": "straight",
+    "temperament": [
+      "affectionate",
+      "loyal",
+      "brave"
+    ],
+    "description": "The Bullmastiff is a large-sized breed of domestic dog, with a solid build and a short muzzle."
+  },
+  {
+    "id": "cane_corso",
+    "name": "Cane Corso",
+    "alt_names": [],
+    "origin": "Italy",
+    "size": "large",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "black",
+      "grey",
+      "fawn",
+      "red"
+    ],
+    "ears": "droopy",
+    "tail": "docked",
+    "temperament": [
+      "smart",
+      "trainable",
+      "noble"
+    ],
+    "description": "The Cane Corso is an Italian breed of mastiff. It is usually kept as a companion dog or guard dog; it may also be used to protect livestock."
+  },
+  {
+    "id": "chinese_crested",
+    "name": "Chinese Crested",
+    "alt_names": [],
+    "origin": "China/Africa",
+    "size": "toy",
+    "coat_length": "long",
+    "coat_type": "hairless",
+    "colors": [
+      "any"
+    ],
+    "ears": "pricked",
+    "tail": "plume",
+    "temperament": [
+      "affectionate",
+      "alert",
+      "lively"
+    ],
+    "description": "The Chinese Crested Dog is a hairless breed of dog. Like most hairless dog breeds, the Chinese Crested Dog comes in two varieties, with and without fur, which are born in the same litter: the Powderpuff and the Hairless."
+  },
+  {
+    "id": "english_bulldog",
+    "name": "English Bulldog",
+    "alt_names": [
+      "Bulldog"
+    ],
+    "origin": "UK",
+    "size": "medium",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "brindle",
+      "white",
+      "red",
+      "fawn"
+    ],
+    "ears": "folded",
+    "tail": "straight",
+    "temperament": [
+      "friendly",
+      "courageous",
+      "calm"
+    ],
+    "description": "The Bulldog, also known as the British Bulldog or English Bulldog, is a medium-sized breed of dog. It is a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose."
+  },
+  {
+    "id": "keeshond",
+    "name": "Keeshond",
+    "alt_names": [],
+    "origin": "Netherlands",
+    "size": "medium",
+    "coat_length": "long",
+    "coat_type": "double",
+    "colors": [
+      "grey",
+      "black",
+      "cream"
+    ],
+    "ears": "pricked",
+    "tail": "curled",
+    "temperament": [
+      "friendly",
+      "lively",
+      "outgoing"
+    ],
+    "description": "The Keeshond is a medium-sized dog with a plush, two-layer coat of silver and black fur with a ruff and a curled tail."
+  },
+  {
+    "id": "newfoundland",
+    "name": "Newfoundland",
+    "alt_names": [
+      "Newfie"
+    ],
+    "origin": "Canada",
+    "size": "giant",
+    "coat_length": "long",
+    "coat_type": "double",
+    "colors": [
+      "black",
+      "brown",
+      "grey",
+      "white"
+    ],
+    "ears": "droopy",
+    "tail": "plume",
+    "temperament": [
+      "sweet",
+      "patient",
+      "devoted"
+    ],
+    "description": "The Newfoundland is a large working dog."
+  },
+  {
+    "id": "norwegian_elkhound",
+    "name": "Norwegian Elkhound",
+    "alt_names": [],
+    "origin": "Norway",
+    "size": "medium",
+    "coat_length": "medium",
+    "coat_type": "double",
+    "colors": [
+      "grey"
+    ],
+    "ears": "pricked",
+    "tail": "curled",
+    "temperament": [
+      "bold",
+      "playful",
+      "loyal"
+    ],
+    "description": "The Norwegian Elkhound is one of the Northern Spitz-type breed of dog and is the National Dog of Norway."
+  },
+  {
+    "id": "pekingese",
+    "name": "Pekingese",
+    "alt_names": [
+      "Peke"
+    ],
+    "origin": "China",
+    "size": "toy",
+    "coat_length": "long",
+    "coat_type": "double",
+    "colors": [
+      "gold",
+      "red",
+      "sable"
+    ],
+    "ears": "droopy",
+    "tail": "curled",
+    "temperament": [
+      "affectionate",
+      "loyal",
+      "regal"
+    ],
+    "description": "The Pekingese is a breed of toy dog, originating in China. The breed was favored by the royalty of the Chinese Imperial court as both a lap dog and companion dog."
+  },
+  {
+    "id": "scottish_terrier",
+    "name": "Scottish Terrier",
+    "alt_names": [
+      "Scottie"
+    ],
+    "origin": "Scotland",
+    "size": "small",
+    "coat_length": "medium",
+    "coat_type": "wire",
+    "colors": [
+      "black",
+      "wheaten",
+      "brindle"
+    ],
+    "ears": "pricked",
+    "tail": "carrot",
+    "temperament": [
+      "confident",
+      "independent",
+      "spirited"
+    ],
+    "description": "The Scottish Terrier, popularly called the Scottie, is a breed of dog. Initially one of the highland breeds of terrier that were grouped under the name of Skye Terrier."
+  },
+  {
+    "id": "soft_coated_wheaten_terrier",
+    "name": "Soft Coated Wheaten Terrier",
+    "alt_names": [
+      "Wheaten"
+    ],
+    "origin": "Ireland",
+    "size": "medium",
+    "coat_length": "long",
+    "coat_type": "silky",
+    "colors": [
+      "wheaten"
+    ],
+    "ears": "folded",
+    "tail": "docked",
+    "temperament": [
+      "friendly",
+      "happy",
+      "devoted"
+    ],
+    "description": "The Soft-coated Wheaten Terrier is a pure breed terrier originating from Ireland. Wheatens typically have a soft, silky coat that does not shed like most dogs."
+  },
+  {
+    "id": "vizsla",
+    "name": "Vizsla",
+    "alt_names": [
+      "Hungarian Vizsla"
+    ],
+    "origin": "Hungary",
+    "size": "medium",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "golden rust"
+    ],
+    "ears": "droopy",
+    "tail": "docked",
+    "temperament": [
+      "affectionate",
+      "gentle",
+      "energetic"
+    ],
+    "description": "The Vizsla is a dog breed from Hungary and belongs to the Federation Cynologique Internationale (FCI) group 7 (Pointing Dogs)."
+  },
+  {
+    "id": "weimaraner",
+    "name": "Weimaraner",
+    "alt_names": [
+      "Grey Ghost"
+    ],
+    "origin": "Germany",
+    "size": "large",
+    "coat_length": "short",
+    "coat_type": "smooth",
+    "colors": [
+      "grey",
+      "silver"
+    ],
+    "ears": "droopy",
+    "tail": "docked",
+    "temperament": [
+      "friendly",
+      "fearless",
+      "obedient"
+    ],
+    "description": "The Weimaraner is a large dog that was originally bred for hunting in the early 19th century."
   }
 ]

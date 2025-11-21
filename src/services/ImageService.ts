@@ -46,6 +46,26 @@ export const getBreedImages = async (breedName: string): Promise<string[]> => {
         }
     } catch (e) {
         console.error('Error fetching breed image:', e);
+        // Try a fallback search with "dog" appended if specific enough
+        if (!breedName.toLowerCase().includes('dog')) {
+            try {
+                const fallbackUrl = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=original&titles=${encodeURIComponent(breedName + ' dog')}&pithumbsize=500`;
+                const response = await fetch(fallbackUrl);
+                const data = await response.json();
+                const pages = data.query.pages;
+                const pageId = Object.keys(pages)[0];
+                if (pageId !== '-1') {
+                    const imageUrl = pages[pageId]?.original?.source;
+                    if (imageUrl) {
+                        const destPath = `${localPath}_1.jpg`;
+                        await RNFS.downloadFile({ fromUrl: imageUrl, toFile: destPath }).promise;
+                        return [`file://${destPath}`];
+                    }
+                }
+            } catch (e2) {
+                console.error('Fallback search failed:', e2);
+            }
+        }
     }
 
     return [];
