@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, Image, ScrollView, Alert, PermissionsAndroid, Platform } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
+import Geolocation from 'react-native-geolocation-service';
 import { addSighting, getBreeds } from '../services/Database';
 import { COLORS, SPACING } from '../utils/theme';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { v4 as uuidv4 } from 'uuid';
 import { Breed } from '../types';
+import BreedSelectModal from '../components/BreedSelectModal';
 
 const SightingFormScreen = () => {
     const navigation = useNavigation<any>();
@@ -19,6 +21,8 @@ const SightingFormScreen = () => {
     const [selectedBreedId, setSelectedBreedId] = useState<string | null>(preselectedBreedId || null);
     const [breeds, setBreeds] = useState<Breed[]>([]);
     const [location, setLocation] = useState<{ lat: number, long: number } | null>(null);
+    const [modalVisible, setModalVisible] = useState(false);
+    const [loadingLocation, setLoadingLocation] = useState(false);
 
     useEffect(() => {
         loadBreeds();
@@ -92,10 +96,33 @@ const SightingFormScreen = () => {
         }
     };
 
-    // Simple mock location for now as setting up Geolocation properly requires more config
-    const handleLocation = () => {
-        Alert.alert('Location', 'Location tagging would go here. (Mocking location for now)');
-        setLocation({ lat: 37.7749, long: -122.4194 });
+    const handleLocation = async () => {
+        if (Platform.OS === 'android') {
+            const granted = await PermissionsAndroid.request(
+                PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION
+            );
+            if (granted !== PermissionsAndroid.RESULTS.GRANTED) {
+                Alert.alert('Permission denied', 'Location permission is required.');
+                return;
+            }
+        }
+
+        setLoadingLocation(true);
+        Geolocation.getCurrentPosition(
+            (position: Geolocation.GeoPosition) => {
+                setLocation({
+                    lat: position.coords.latitude,
+                    long: position.coords.longitude,
+                });
+                setLoadingLocation(false);
+            },
+            (error: Geolocation.GeoError) => {
+                console.error(error);
+                Alert.alert('Error', 'Failed to get location.');
+                setLoadingLocation(false);
+            },
+            { enableHighAccuracy: true, timeout: 15000, maximumAge: 10000 }
+        );
     };
 
     const selectedBreedName = breeds.find(b => b.id === selectedBreedId)?.name || 'Unknown / Mixed';
@@ -131,10 +158,7 @@ const SightingFormScreen = () => {
                 <Text style={styles.label}>Breed</Text>
                 <TouchableOpacity
                     style={styles.input}
-                    onPress={() => {
-                        // In a real app, open a picker modal. For now, just show current.
-                        Alert.alert('Select Breed', 'Breed selection would open a modal here. Using pre-selected or default.');
-                    }}
+                    onPress={() => setModalVisible(true)}
                 >
                     <Text style={{ color: selectedBreedId ? COLORS.text : COLORS.textLight }}>
                         {selectedBreedName}
@@ -150,10 +174,10 @@ const SightingFormScreen = () => {
                     multiline
                 />
 
-                <TouchableOpacity style={styles.locationButton} onPress={handleLocation}>
+                <TouchableOpacity style={styles.locationButton} onPress={handleLocation} disabled={loadingLocation}>
                     <Ionicons name="location" size={20} color={COLORS.primary} />
                     <Text style={styles.locationText}>
-                        {location ? 'Location Tagged' : 'Add Location'}
+                        {loadingLocation ? 'Getting Location...' : (location ? `Location: ${location.lat.toFixed(4)}, ${location.long.toFixed(4)}` : 'Add Location')}
                     </Text>
                 </TouchableOpacity>
 
@@ -161,6 +185,13 @@ const SightingFormScreen = () => {
                     <Text style={styles.saveButtonText}>Save Sighting</Text>
                 </TouchableOpacity>
             </View>
+
+            <BreedSelectModal
+                visible={modalVisible}
+                onClose={() => setModalVisible(false)}
+                onSelect={(breed) => setSelectedBreedId(breed.id)}
+                breeds={breeds}
+            />
         </ScrollView>
     );
 };
