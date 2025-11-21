@@ -61,9 +61,9 @@ export const initDatabase = async () => {
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `;
 
-        await database.transaction(async (tx) => {
+        await database.transaction((tx) => {
             for (const breed of breedsSeed) {
-                await tx.executeSql(insertQuery, [
+                tx.executeSql(insertQuery, [
                     breed.id,
                     breed.name,
                     JSON.stringify(breed.alt_names),
