@@ -25,14 +25,33 @@ export const getBreedImages = async (breedName: string): Promise<string[]> => {
     }
 
     // Fetch from Wikipedia API
+    const headers = {
+        'User-Agent': 'DogSpotter/1.0 (com.mistbits.dogspotter; contact@mistbits.com)',
+        'Accept': 'application/json'
+    };
+
     try {
         const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=original&titles=${encodeURIComponent(breedName)}&pithumbsize=500`;
-        const response = await fetch(searchUrl);
-        const data = await response.json();
+        const response = await fetch(searchUrl, { headers });
+
+        if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
+
+        const text = await response.text();
+        let data;
+        try {
+            data = JSON.parse(text);
+        } catch (e) {
+            console.error('Wikipedia API returned non-JSON:', text.substring(0, 100));
+            throw e;
+        }
+
         const pages = data.query.pages;
         const pageId = Object.keys(pages)[0];
 
-        if (pageId === '-1') return [];
+        if (pageId === '-1') {
+            // If first attempt fails to find page, throw to trigger fallback
+            throw new Error('Page not found');
+        }
 
         const imageUrl = pages[pageId]?.original?.source;
         if (imageUrl) {
@@ -45,13 +64,25 @@ export const getBreedImages = async (breedName: string): Promise<string[]> => {
             return [`file://${destPath}`];
         }
     } catch (e) {
-        console.error('Error fetching breed image:', e);
+        console.log(`Primary search failed for ${breedName}:`, e);
+
         // Try a fallback search with "dog" appended if specific enough
         if (!breedName.toLowerCase().includes('dog')) {
             try {
                 const fallbackUrl = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=original&titles=${encodeURIComponent(breedName + ' dog')}&pithumbsize=500`;
-                const response = await fetch(fallbackUrl);
-                const data = await response.json();
+                const response = await fetch(fallbackUrl, { headers });
+
+                if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
+
+                const text = await response.text();
+                let data;
+                try {
+                    data = JSON.parse(text);
+                } catch (e) {
+                    console.error('Wikipedia API (fallback) returned non-JSON:', text.substring(0, 100));
+                    throw e;
+                }
+
                 const pages = data.query.pages;
                 const pageId = Object.keys(pages)[0];
                 if (pageId !== '-1') {
