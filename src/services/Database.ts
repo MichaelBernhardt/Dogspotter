@@ -50,37 +50,42 @@ export const initDatabase = async () => {
     );
   `);
 
-    // Seed breeds if count is less than seed length (or 0)
-    const [results] = await database.executeSql('SELECT count(*) as count FROM breeds');
-    const currentCount = results.rows.item(0).count;
-
-    if (currentCount < breedsSeed.length) {
-        console.log('Seeding/Updating breeds...');
-        const insertQuery = `
+    // Always sync breeds to ensure consistency with the JSON file
+    console.log('Syncing breeds...');
+    const insertQuery = `
       INSERT OR REPLACE INTO breeds (id, name, alt_names, origin, size, coat_length, coat_type, colors, ears, tail, temperament, description)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `;
 
-        await database.transaction((tx) => {
-            for (const breed of breedsSeed) {
-                tx.executeSql(insertQuery, [
-                    breed.id,
-                    breed.name,
-                    JSON.stringify(breed.alt_names),
-                    breed.origin,
-                    breed.size,
-                    breed.coat_length,
-                    breed.coat_type,
-                    JSON.stringify(breed.colors),
-                    breed.ears,
-                    breed.tail,
-                    JSON.stringify(breed.temperament),
-                    breed.description,
-                ]);
-            }
-        });
-        console.log('Seeding complete.');
-    }
+    await database.transaction(async (tx) => {
+        // 1. Upsert all breeds from seed
+        const promises = breedsSeed.map(breed =>
+            tx.executeSql(insertQuery, [
+                breed.id,
+                breed.name,
+                JSON.stringify(breed.alt_names),
+                breed.origin,
+                breed.size,
+                breed.coat_length,
+                breed.coat_type,
+                JSON.stringify(breed.colors),
+                breed.ears,
+                breed.tail,
+                JSON.stringify(breed.temperament),
+                breed.description,
+            ])
+        );
+        await Promise.all(promises);
+    });
+
+    // 2. Remove breeds that are no longer in the seed file (e.g. old slug-based IDs)
+    const seedIds = breedsSeed.map(b => b.id);
+    // SQLite limit for host parameters is usually 999, 170 is fine.
+    // Constructing the query string manually to be safe with the array
+    const placeholders = seedIds.map(() => '?').join(',');
+    await database.executeSql(`DELETE FROM breeds WHERE id NOT IN (${placeholders})`, seedIds);
+
+    console.log('Breed sync complete.');
 };
 
 export const getBreeds = async (): Promise<Breed[]> => {
