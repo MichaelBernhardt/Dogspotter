@@ -1,0 +1,24 @@
+App Name: DogSpotter
+Short Description: The offline field guide for dog lovers. Identify breeds and log sightings.
+
+Full Description:
+DogSpotter is your ultimate companion for discovering and documenting the world of dogs. Inspired by bird-watching field guides, DogSpotter lets you build your own "life list" of dog breeds you've encountered.
+
+Whether you're at the park, on a walk, or just curious about a pup you see, DogSpotter helps you identify breeds with its smart trait-based search. Browse our extensive offline library of over 50 dog breeds, complete with photos, traits, and descriptions.
+
+Key Features:
+- 📚 Extensive Offline Breed Library: Access detailed info on 50+ breeds without an internet connection.
+- 📸 Log Sightings: Keep a journal of every dog you meet. Add photos, names, and notes.
+- 🔍 Smart Identification: Don't know the breed? Use our trait matcher to narrow it down by size, coat, and ears.
+- 🌍 Map Your Spotting: (Coming soon) See where you've spotted different dogs.
+- 🏆 Track Your Stats: See how many unique breeds you've found.
+- ⚡ Fast & Private: All data is stored locally on your device.
+
+Start your dog spotting adventure today!
+
+Feature List:
+1. Offline Breed Encyclopedia
+2. Personal Sighting Log with Photos
+3. Trait-Based Breed Identification
+4. Photo Gallery (with caching)
+5. Sighting History & Stats
