@@ -88,7 +88,7 @@ const SightingFormScreen = () => {
         try {
             await addSighting(newSighting);
             Alert.alert('Success', 'Sighting logged!', [
-                { text: 'OK', onPress: () => navigation.navigate('Sightings') }
+                { text: 'OK', onPress: () => navigation.navigate('Main', { screen: 'Sightings' }) }
             ]);
         } catch (e) {
             console.error(e);
